@@ -34,7 +34,7 @@ app.use(ErrorHandler);
   try {
     //  ADD you pre run code here 
     app.listen(process.env.PORT ?? 6000, () => {
-      console.log("⚙️", ` Server is running at port : ${process.env.PORT}`);
+      console.log("⚙️", ` Server is running at port : ${process.env.PORT ?? 6000}`);
     });
   } catch (err) {
     console.error((err as Error).message);
