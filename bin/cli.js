@@ -21,6 +21,10 @@ if (!checkoutResult) process.exit(-1);
 console.log(
   `Congratulations! 🎉 You are ready. Follow the following commands to start`
 );
+console.log("");
+console.log(`cd ${repoName} && npm install`);
+console.log("");
+
 console.log(`to start a development server :-`);
 console.log(`cd ${repoName} && npm run dev`);
 console.log(`to build a production build :-`);
