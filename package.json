@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "basic express template with all error handling in typescript",
   "main": "index.js",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "express-template-ts": "bin/cli.js"
+  },
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
