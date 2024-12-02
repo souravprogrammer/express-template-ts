@@ -8,3 +8,5 @@ dist/
 .idea/
 # Logs
 *.log
+.npmignore
+bin
